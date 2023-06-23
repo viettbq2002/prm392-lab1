@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/detail_layout"
+
+    android:padding="20dp"
+
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/detail_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="StudentID"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/detail_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+
+        android:text="Full Name"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/detail_birthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Birthday"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/detail_avg_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Avegare Score"
+        android:textSize="20dp" />
+
+</LinearLayout>
